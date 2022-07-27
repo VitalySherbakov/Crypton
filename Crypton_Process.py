@@ -31,13 +31,13 @@ class Crypton(object):
 	def GetDictCrypton(self):
 		"""Получить Словари"""
 		dict_crypt={
-		  "lol_miner": CryptonObj("lolminer","lolminer","lolMiner_v1.52a_Lin64.tar.gz"),
+		  "lol_miner": CryptonObj("lolMiner","lolminer","lolMiner_v1.52a_Lin64.tar.gz"),
 		  "b_miner": CryptonObj("bminer","bminer","bminer-v16.4.11-2849b5c-amd64.tar.gz"),
 		  "srb_miner": CryptonObj("srbminer","srbminer","SRBMiner-Multi-1-0-2-Linux.tar.gz"),
 		  "nb_miner": CryptonObj("nbminer","nbminer","NBMiner_42.2_Linux.tar.gz"),
 		  "teamred_miner": CryptonObj("teamredminer","teamredminer","teamredminer-v0.10.2-linux.tar.gz"),
-		  "t_rex_miner": CryptonObj("t_rex","t_rex","t-rex-0.26.4-linux.tar.gz"),
-		  "g_miner": CryptonObj("gminer","gminer","gminer_3_03_linux64.tar.gz")
+		  "t_rex_miner": CryptonObj("t-rex","t_rex","t-rex-0.26.4-linux.tar.gz"),
+		  "g_miner": CryptonObj("miner","gminer","gminer_3_03_linux64.tar.gz")
 		}
 		return dict_crypt
 	def GetExtractAll(self, dictes: {}):
