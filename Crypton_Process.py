@@ -2,7 +2,6 @@ import os, sys, json, time, datetime, random
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
 
-
 class CryptonObj(object):
 	"""docstring for CryptonObj"""
 	Arhiv=""
