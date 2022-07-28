@@ -20,6 +20,9 @@ class CryptonObj(object):
 			self.Path_Sh=f"{folder_path}/{folder}/{folder2}/{sh}"
 		else:
 			self.Path_Sh=f"{folder_path}/{folder}/{sh}"
+	def GetRoot(self):
+		"""Корень Папки"""
+		return dir_path
 	def IsBlank(self,mystr: str):
 		"""Являеться Строка Пустой"""
 		return not (mystr and mystr.strip())
