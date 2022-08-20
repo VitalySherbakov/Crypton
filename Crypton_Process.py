@@ -40,7 +40,8 @@ class Crypton(object):
 		  "nb_miner": CryptonObj("-xzf","nbminer","nbminer","NBMiner_Linux","NBMiner_42.2_Linux.tgz","-a ethash -o stratum+tcp://eth.hashcity.org:7777 -u bonakva.[WORKER]"),
 		  "teamred_miner": CryptonObj("-xzf","teamredminer","teamredminer","teamredminer-v0.10.2-linux","teamredminer-v0.10.2-linux.tgz","-a ethash -o stratum+tcp://eth.hashcity.org:7777 -u bonakva.[WORKER] -p x"),
 		  "t_rex_miner": CryptonObj("-xzvf","t-rex","t_rex","","t-rex-0.26.4-linux.tar.gz","-a ethash -o stratum+tcp://eth.hashcity.org:7777 -u bonakva.[WORKER] -p x"),
-		  "g_miner": CryptonObj("-xf","miner","gminer","","gminer_3_03_linux64.tar.xz","--algo ETCHASH --pool $POOL --user $WALLET $@")
+		  "g_miner": CryptonObj("-xf","miner","gminer","","gminer_3_03_linux64.tar.xz","--algo ETCHASH --pool $POOL --user $WALLET $@"),
+		  "cpu_gr_avx2_miner": CryptonObj("","","","","","") 
 		}
 		if ReadFile==1:
 			dict_crypt=self.ReadSetting(filejson)
